@@ -1,38 +1,89 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  margin-left: 2%;
+}
+
+.button {
+  margin-top: 7%;
+  width: 15.375rem;
+  height: 2.375rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #c5c5c54c;
+  border-radius: 0.625rem;
+  box-shadow: 0rem 0.25rem 0.25rem #00000066;
+}
+
+.tlac {
+  width: 4.125rem;
+  height: 2.375rem;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  border-radius: 0.625rem;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  justify-content: space-around;
+}
+
+.light {
+  background-color: #50ada6;
+  color: #ffffff;
+}
+
+.tlac:hover {
+  background-color: #50ada6;
+  color: #ffffff;
+}
+
+.tlac2 {
+  flex-grow: 2;
+}
+
+.frame-6 {
+  display: flex;
+  align-items: flex-start;
+  gap: 43px;
+}
+
+.button-default {
+  display: flex;
+  width: 7.5rem;
+  height: 2.5rem;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0rem 0.25rem 0.25rem #00000066;
+  cursor: pointer;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 15px;
+  white-space: nowrap;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.orange {
+  background-color: #d79b28;
+  color: #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.polygon {
+	padding-left: 10%;
+	width: 14.28px;
+	height: 18.25px;
+}
+
+.save {
+  padding-left: 5%;
+  width: 14.73px;
+  height: 16px;
 }
